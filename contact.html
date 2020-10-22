@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- fontawesome -->
+    <script src="/fontawesome/all.js"></script>
+</head>
+<body>
+
+<!-- navigation -->
+  <nav class="page-nav">
+    <div class="nav-wrapper container">
+      <div id="logo">
+        <a href="#">
+          <img src="/images/icon-logo.png" id="logo-icon" alt="logo-icon">
+        </a>
+          <a href="/index.html">KAR'EE.</a>
+      </div>
+
+      <a class="shopping-bag" href="#">
+        <img src="/images/shopping-bag.png" alt="shopping-bag">
+      </a>
+
+      <a class="hamburger" href="#nav-list">
+        <i class="fas fa-bars"></i>
+      </a> 
+      <ul class="navbar" id="nav-list">
+        <li class="nav-item"><a class="nav-links" href="/index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-links" href="#">Order</a></li>
+        <li class="nav-item"><a class="nav-links" href="/about.html">About <span>Us</span></a></li>
+        <li class="nav-item"><a class="nav-links active" href="/contact.html">Contact <span>Us</span></a></li>
+        <li class="nav-item"><a class="nav-links" href="#">Faq</a></li>
+        <a class="close" href="#">
+          <img src="/images/close-icon1.png" alt="close-icon">
+        </a>
+      </ul>
+    </div>
+  </nav>
+<!-- end of navigation -->
+
+<!-- hero section -->
+<section  class="section" id="contact-hero">
+    <div class="hero-content contact-text container">
+      <h1>We'd love to<br> hear from you</h1>
+      <!--cta-->
+    <div id="hero-cta-btn">
+      <a class="cta-btn hero-cta" href="#my-form">GET IN TOUCH</a>
+    </div>
+    </div>
+</section>
+<!-- end of hero section -->
+
+<!-- contact details -->
+<div id="contact-info" class="container">
+  <h2>contact us</h2>
+    <!-- address -->
+    <div  class="contact-info-item">
+      <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+      <p>1234xyz, Ahmadu Bello way Soba, Kaduna, nigeria</p>
+    </div>
+     <!-- opening hours -->
+    <div  class="contact-info-item">
+      <a href="#"><i class="fas fa-user-clock"></i></a>
+      <p><span>Monday to Friday:</span> 10am - 3pm</p>
+      <p><span>Saturday:</span> 10am - 4pm</p>
+      <p><span>Sunday:</span> 12am - 4pm</p>
+    </div>
+     <!-- mail -->
+    <div  class="contact-info-item">
+      <a href="#"><i class="fas fa-envelope"></i></a>
+      <p>mail@karees.com</p>
+    </div>
+     <!-- customer service no -->
+    <div  class="contact-info-item">
+      <a href="#"><i class="fas fa-phone-alt"></i></a>
+      <p>Call customer Service <br> on <span>0800 123 456</span></p>
+    </div>
+</div>
+<!-- end of contact details -->
+
+<!-- form field -->
+    <h2 id="form-heading">or fill out our form and we will get in touch shortly</h2>
+<form id="my-form" >
+    <div class="container form-content">
+        <!-- subject -->
+    <div class="form-item info">
+      <label for="subject">How can we help you? <span>*</span></label>
+      <input type="text" id="subject" name="subject-field" placeholder="choose a subject" list="subject-choose">
+      <datalist id="subject-choose">
+        <option value="Enquiry"></option>
+        <option value="Complaint"></option>
+      </datalist>
+      </div>
+        <!-- firstName -->
+    <div class="form-item info1">
+      <label for="firstname">First Name <span>*</span></label>
+      <input type="text" id="firstname" name="firstName-field" placeholder="John">
+    </div>
+      <!-- lastName -->
+    <div class="form-item info2">
+      <label for="lastname">Last Name <span>*</span></label>
+      <input type="text" id="lastname" name="lastName-field" placeholder="Doe">
+    </div>
+      <!-- email -->
+    <div class="form-item info3">
+      <label for="email-input">First Name <span>*</span></label>
+      <input type="email" id="email-input" name="email-field" placeholder="example@gmail.com">
+    </div>
+      <!-- telephone -->
+    <div class="form-item info3">
+      <label for="tel-input">Phone Number <span>*</span></label>
+      <input type="tel" id="tel-input" name="telephone" placeholder="0800 123 456">
+    </div>
+      <!-- message -->
+    <div class="form-item msg">
+      <label for="message-input">Message <span>*</span></label>
+      <textarea name="message" id="message-input" cols="30" rows="10"  placeholder="Hello!"></textarea>
+    </div>
+      <!-- submit -->
+    <div class="form-item form-btn">
+      <input type="submit" value="submit">
+    </div>
+  </div>
+</form>
+<!-- end of form field -->
+
+<!-- footer -->
+<footer>
+<!-- logo -->
+  <div id="logo" class="container">
+    <a href="#">
+          <img src="/images/icon-logo.png" id="logo-icon" alt="logo-icon">
+        </a>
+    <a id="footer-logo" href="#">KAR'EE.</a>
+  </div>
+
+<div class="footer-grid container">
+<!-- company -->
+  <nav id="company" class="quicknav footer-item">
+    <h3>COMPANY</h3>
+    <ul>
+      <li><a class="quick-links" href="#">Home</a></li>
+      <li><a class="quick-links" href="/about.html">About Us</a></li>
+      <li><a class="quick-links" href="#">Shop</a></li>
+      <li><a class="quick-links" href="#">Blog</a></li>
+      <li><a class="quick-links" href="#">Contact Us</a></li>
+    </ul>
+    </nav>
+<!-- service -->
+  <nav id="service" class="quicknav footer-item">
+    <h3>SERVICES</h3>
+    <ul>
+      <li><a class="quick-links" href="#">Support</a></li>
+      <li><a class="quick-links" href="#">Faq</a></li>
+      <li><a class="quick-links" href="#">Warranty</a></li>
+      <li><a class="quick-links" href="#">Live Chat</a></li>
+      <li><a class="quick-links" href="#">Privacy Policy</a></li>
+    </ul>
+  </nav>
+    <!-- orders/returns navigation -->
+  <nav id="orders-returns" class="quicknav footer-item">
+    <h3>ORDER & RETURNS</h3>
+    <ul>
+      <li><a class="quick-links" href="#">Order</a></li>
+      <li><a class="quick-links" href="#">Status</a></li>
+      <li><a class="quick-links" href="#">Shipping</a></li>
+      <li><a class="quick-links" href="#">Policy</a></li>
+      <li><a class="quick-links" href="#">Cart</a></li>
+    </ul>
+    </nav>
+  <!-- social media -->
+  <div id="social-media" class="footer-item">
+    <div id="social-icons">
+      <a href="#"><i class="fab fa-facebook facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram instagram"></i></a>
+      <a href="#"><i class="fab fa-pinterest pinterest"></i></a>
+    </div>
+  </div>
+</div>
+</footer>
+<!-- end of footer -->
+
+<!-- footer bottom-->
+<div id="footer-bottom">
+  <p>Built with <a href="#"><i class="fas fa-heart"></i></a> and <a href="#"><i class="fas fa-coffee"></i></a> By <span><a href="#">Que Code</a></span> <br> All Right Reserved &copy 2020</p>
+</div>
+<!-- end of footer bottom-->
+
+
+</body>
+</html>
